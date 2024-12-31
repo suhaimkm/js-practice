@@ -13,8 +13,7 @@ for (i = 2; i <= 20; i++) {
   str = str + sum + ' ';
 
 
-// first = second;
-//   second = sum;
+
 first = second;
 second = sum;
 
