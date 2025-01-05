@@ -1,6 +1,3 @@
 let fruits = ["apple", "banana", "cherry", "kiwi", "mango", "orange", "wateremlon"];
-
-fruits.forEach(fruit => console.log(fruit)
-
-);
+fruits.forEach(fruit => console.log(fruit));
 
