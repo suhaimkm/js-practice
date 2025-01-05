@@ -10,8 +10,8 @@ for (i = 2; i < n; i++) {
     }
    }
 if(prime==false){
-    prime.push(n + " is not a prime number");
+    primearray.push(n + " is not a prime number");
 }else if(prime==true){
-    prime.push(n + " is a prime number");
+    primearray.push(n + " is a prime number");
 }
 console.log(primearray);
