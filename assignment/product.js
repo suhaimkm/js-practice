@@ -5,11 +5,23 @@ const products = [
     { name: "Keyboard", price: 1000, stock: 5 },
 ];
 
-filterproducts = products.filter(product => product.stock > 10);
-productsmap = products.map(product => product.price * 0.15 + product.price);
+filterProducts = products.filter(product => product.stock > 10);
+
+filterProducts2 = products.filter(product => product.name.startsWith('H'));
+console.log(filterProducts2);
+
+
+productsMap = products.map(product =>{
+    return {
+        name: product.name,
+        price: product.price * 0.15 + product.price,
+        stock: product.stock
+    }
+    });
 
 console.log("orginal array");
 console.log(products);
 console.log("filtered array");
-console.log(filterproducts);
-console.log(productsmap);
+console.log(filterProducts);
+console.log(" 15% increased");
+console.log(productsMap);
