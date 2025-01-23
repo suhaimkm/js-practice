@@ -8,7 +8,7 @@ const products = [
 filterProducts = products.filter(product => product.stock > 10);
 
 filterProducts2 = products.filter(product => product.name.startsWith('H'));
-console.log(filterProducts2);
+console.log("startswith H",filterProducts2);
 
 
 productsMap = products.map(product =>{
